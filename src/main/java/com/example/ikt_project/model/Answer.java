@@ -20,6 +20,8 @@ public class Answer {
     @OneToOne
     private Question correctQuestion;
 
+    private String content1;
+
     public Answer() {
     }
 
